@@ -1,0 +1,32 @@
+fit_params_ini 47.0614969287400 1.72963891799601 1.0 0.0
+look_index_ref 0
+weighting_win_type gaussian
+weighting_win_width 0.5
+wvfm_discard_samples 1
+wvfm_discard_samples_begin 10
+wvfm_discard_samples_end 50
+zp_fact_range_cnf 1
+N_samples_sar_chd 256
+errEstimates 10e-1
+errWave 10e-14
+errWaveFitted 10e-1
+estimates_expected 47.0145833720811 1.70688941654565 -138.734543315997 99.7385483622725 3 -0.0469135566589838
+start_sample 10
+stop_sample 461
+Thn_flag 1
+fit_noise 1
+Thn_w_first 1 
+Thn_w_width 20
+percent_leading_edge 87.0
+threshold_noise 1e-3
+max_iter_noise 100
+fitting_options_ACDC_lb -10.0 0.0 0.0
+fitting_options_ACDC_ub []
+LUT_ximin -10
+LUT_ximax 50
+LUT_step 1e-5
+range_index_method conventional
+zp_fact_range_cnf 1
+uso_freq_nom_chd 10e6
+alt_freq_multiplier_chd 39.5
+bw_ku_chd 320e6

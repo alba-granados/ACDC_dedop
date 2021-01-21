@@ -1,0 +1,22 @@
+fit_params_ini 0.0 1.97588309077937 1.0
+look_index_ref 0
+Thn_flag 1
+fit_noise 0
+Thn_w_first 1 
+Thn_w_width 20
+percent_leading_edge 87.0
+threshold_noise 1e-3
+max_iter_noise 100
+fitting_options_ACDC_lb -10.0 0.0 0.0
+fitting_options_ACDC_ub []
+errEstimates 10e-1
+errWave 10e-1
+estimates_expected -0.0949889921280232 2.00516281754443 -138.674140971821 99.5673327551824 2
+LUT_ximin -10
+LUT_ximax 50
+LUT_step 1e-5
+range_index_method conventional
+zp_fact_range_cnf 1
+uso_freq_nom_chd 10e6
+alt_freq_multiplier_chd 39.5
+bw_ku_chd 320e6

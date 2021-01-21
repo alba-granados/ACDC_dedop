@@ -1,0 +1,11 @@
+fit_params -0.0271076571318024 0.652636072014404 0.712139837130605
+ThN 0.0172082659551989
+LUT_ximin -10
+LUT_ximax 50
+LUT_step 1e-5
+range_index_method resampling
+zp_fact_range_cnf 2
+uso_freq_nom_chd 10e6
+alt_freq_multiplier_chd 39.5
+bw_ku_chd 320e6
+err 10e-15

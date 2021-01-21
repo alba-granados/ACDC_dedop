@@ -1,0 +1,19 @@
+name: dedop-docs
+channels:
+    - conda-forge
+    - defaults
+    - ccitools
+dependencies:
+  - python=3.6*
+  - cate-util
+  - mock
+  #
+  # for testing
+  #
+  - pytest
+  - pytest-cov
+  - tornado
+  - sphinx-argparse
+  - sphinx_rtd_theme
+  - pip:
+    - sphinx_autodoc_annotation

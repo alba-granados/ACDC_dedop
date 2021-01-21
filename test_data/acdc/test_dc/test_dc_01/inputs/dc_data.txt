@@ -1,0 +1,3 @@
+SWH 1.72963891799601
+look_indexation_ref 0
+err 10e-15

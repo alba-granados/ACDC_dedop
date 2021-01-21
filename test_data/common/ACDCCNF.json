@@ -1,0 +1,199 @@
+{
+  "__metainf__": {
+    "description": "DeDop ACDC Configuration File",
+    "version": 0,
+    "changelog": [
+      {
+        "version": 0,
+        "parameters": [],
+        "comment": "initial version"
+      }
+    ]
+  },
+  "num_iterations": {
+    "value": 2,
+    "units": null,
+    "description": "Number of iterations over the same surface"
+  },
+  "n_iterations_track": {
+    "value": 1,
+    "units": null,
+    "description": "Number of track iterations over all surfaces"
+  },
+  "wvfm_discard_samples": {
+    "value": true,
+    "units": "flag",
+    "description": "Flag that activates discarding samples: Desactivated(false); Activated(true)"
+  },
+  "wvfm_discard_samples_begin": {
+    "value": 10,
+    "units": null,
+    "description": "Index of the first sample to discard"
+  },
+  "wvfm_discard_samples_end": {
+    "value": 50,
+    "units": null,
+    "description": "Index of the last sample to discard"
+  },
+  "weighting_win_type": {
+    "value": "gaussian",
+    "units": null,
+    "description": "The type of weighting window in the multilooking"
+  },
+  "weighting_win_width": {
+    "value": 0.5,
+    "units": null,
+    "description": "Width of the window in range bins"
+  },
+  "Thn_flag": {
+    "value": true,
+    "units": "flag",
+    "description": "Flag that activate the use of Thn in estimation: Desactivated(false); Activated(true)"
+  },
+  "fit_noise": {
+    "value": true,
+    "units": "flag",
+    "description": "Flag that activates the noise estimation, otherwise using the values in Thn_w_first and Thn_w_width: Desactivated(false); Activated(true)"
+  },
+  "Thn_w_first": {
+    "value": 1,
+    "units": null,
+    "description": "Gate number after if mask to start thermal noise windowing; this index must be > 0"
+  },
+  "Thn_w_width": {
+    "value": 20,
+    "units": null,
+    "description": "Thermal noise window in range bins"
+  },
+  "threshold_noise": {
+    "value": 1e-3,
+    "units": null,
+    "description": "Threshold used to estimate the samples used in the noise window estimation"
+  },
+  "max_iter_noise": {
+    "value": 100,
+    "units": null,
+    "description": "Number maximum of iterations in the noise estimation"
+  },
+  "rou_flag": {
+    "value": false,
+    "units": "flag",
+    "description": "Flag that activates the fit roughness: Desactivated(false); Activated(true)"
+  },
+  "rou": {
+    "value": 1e-2,
+    "units": null,
+    "description": "roughness value"
+  },
+  "Hs": {
+    "value": 1e-6,
+    "units": null,
+    "description": "Value of the Hs when fitting the MSS or roughness"
+  },
+  "window_type_a": {
+    "value": "none",
+    "units": null,
+    "description": "Window type: hamming, hanning, boxcar, none"
+  },
+  "window_a_fixed_value": {
+    "value": 0.54351,
+    "units": null,
+    "description": "Fixed value of window: sigma gaussian"
+  },
+  "window_type_r": {
+    "value": "none",
+    "units": null,
+    "description": "Window type: hamming, hanning, boxcar, none"
+  },
+  "window_r_fixed_value": {
+    "value": 1.05,
+    "units": null,
+    "description": "Fixed value of window: sigma gaussian"
+  },
+  "LUT_ximax": {
+    "value": 50,
+    "units": null,
+    "description": "Maximum value of the gl*k parameter LUT"
+  },
+  "LUT_ximin": {
+    "value": -10,
+    "units": null,
+    "description": "Minimum value of the gl*k parameter LUT"
+  },
+  "LUT_step": {
+    "value": 1e-5,
+    "units": null,
+    "description": "Step of gl*k parameter in the LUT"
+  },
+  "percent_leading_edge": {
+    "value": 87.0,
+    "units": null,
+    "description": "percentage of peak detect to establish the mid-point leading edge"
+  },
+  "ini_Epoch": {
+    "value": 35,
+    "units": null,
+    "description": "Initial value of Epoch"
+  },
+  "ini_Hs": {
+    "value": 2.0,
+    "units": null,
+    "description": "Initial value of Hs"
+  },
+  "ini_Pu": {
+    "value": 1,
+    "units": null,
+    "description": "Initial value of Pu"
+  },
+  "ini_rou": {
+    "value": 1e-2,
+    "units": null,
+    "description": "Initial value of rou"
+  },
+  "ini_error_epoch": {
+    "value": 0.0,
+    "units": null,
+    "description": "Differential error of the ACDC retracker"
+  },
+  "initial_param_fit_feedback_flag": {
+    "value": true,
+    "units": "flag",
+    "description": "Flag that activates the updating of the initial parameters from the previous surfaces"
+  },
+  "win_smooth": {
+    "value": 20,
+    "units": null,
+    "description": "Size of the smoothing window over the retracked parameters in a given track"
+  },
+  "range_index_method": {
+    "value": "conventional",
+    "units": null,
+    "description": "conventional: Creating the range vector directly from number of samples; resampling: Creating the range vector from number of samples and zero padding"
+  },
+  "ref_sample_wd": {
+    "value": 256,
+    "units": null,
+    "description": "Reference bin window delay"
+  },
+  "fitting_options_ACDC_lb": {
+    "value": [-10.0,0,0],
+    "units": null,
+    "description": "Lower boundaries"
+  },
+  "fitting_options_ACDC_ub": {
+    "value": [],
+    "units": null,
+    "description": "Upper boundaries"
+  },
+  "LUT_f0_path": {
+    "value": "test_data/common/lut_binary.dat",
+    "units": null,
+    "description": "Path of the Look Up Table used in the model"
+  },
+  "mission": {
+    "value": "S3",
+    "units": null,
+    "description": "The code of the mission"
+  }
+
+}
